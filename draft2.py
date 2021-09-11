@@ -1,11 +1,11 @@
-#Черновик
 ask_list = {'Как твои дела?': 'хорошо', 'Сколько тебе лет?': '23', 'Ты работаешь?':'Да, много', 'У тебя много друзей?': 'Да, очень'}
 
 def ask_user(what):
-    
+    ask = str(input())
     what = True
+    
     while what:
-        ask = f'"Вопрос: " {str(input())}'
+        
         if ask == 'Как твои дела?':
             print(ask_list['Как твои дела?'])
         
@@ -19,5 +19,5 @@ def ask_user(what):
             print(ask_list['У тебя много друзей?'])
         
 
-            
-ask_user('00')
+          
+ask_user('sd')

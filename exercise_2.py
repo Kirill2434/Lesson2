@@ -8,9 +8,6 @@ def comparison(string1, string2):
         print (2)
     if str(string1) != str(string2) and string2 == ('learn'):
         print (3)
-    else:
-        return (int(string1), int(string2))
+    
 
-comparison ('0','learn')
-comparison ('01', '2')
-comparison ('0','0')
+comparison (0,'learn')
