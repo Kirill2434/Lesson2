@@ -14,7 +14,7 @@ def school_scores_avg(scores):
         
         print(mark, mark_school)
         
-school_scores_avg(school_info)
+school_scores_avg(scores=school_info)
 
 sum_school_marks = len(school_info)
 total=sum(school_info[0]['scores']) + sum(school_info[1]['scores']) + sum(school_info[2]['scores'])
